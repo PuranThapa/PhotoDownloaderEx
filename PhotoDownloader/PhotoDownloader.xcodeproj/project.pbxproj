@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1C03F201F43752F00359BFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C03F1F1F43752F00359BFD /* AppDelegate.swift */; };
+		F1C03F251F43752F00359BFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C03F231F43752F00359BFD /* Main.storyboard */; };
+		F1C03F271F43752F00359BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C03F261F43752F00359BFD /* Assets.xcassets */; };
+		F1C03F2A1F43753000359BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C03F281F43753000359BFD /* LaunchScreen.storyboard */; };
+		F1C03F351F43753100359BFD /* PhotoDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C03F341F43753100359BFD /* PhotoDownloaderTests.swift */; };
+		F1C03F401F43753100359BFD /* PhotoDownloaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C03F3F1F43753100359BFD /* PhotoDownloaderUITests.swift */; };
+		F1C03F511F4375A300359BFD /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C03F4D1F4375A300359BFD /* ListViewController.swift */; };
+		F1C03F521F4375A300359BFD /* PhotoOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C03F4E1F4375A300359BFD /* PhotoOperations.swift */; };
+		F1C03F531F4375A300359BFD /* SimpleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C03F4F1F4375A300359BFD /* SimpleTableViewCell.swift */; };
+		F1C03F541F4375A300359BFD /* SingleImageShowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C03F501F4375A300359BFD /* SingleImageShowVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1C03F311F43753100359BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C03F141F43752F00359BFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1C03F1B1F43752F00359BFD;
+			remoteInfo = PhotoDownloader;
+		};
+		F1C03F3C1F43753100359BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C03F141F43752F00359BFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1C03F1B1F43752F00359BFD;
+			remoteInfo = PhotoDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1C03F1C1F43752F00359BFD /* PhotoDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C03F1F1F43752F00359BFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1C03F241F43752F00359BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1C03F261F43752F00359BFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1C03F291F43753000359BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1C03F2B1F43753000359BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C03F301F43753100359BFD /* PhotoDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C03F341F43753100359BFD /* PhotoDownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDownloaderTests.swift; sourceTree = "<group>"; };
+		F1C03F361F43753100359BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C03F3B1F43753100359BFD /* PhotoDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C03F3F1F43753100359BFD /* PhotoDownloaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDownloaderUITests.swift; sourceTree = "<group>"; };
+		F1C03F411F43753100359BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C03F4D1F4375A300359BFD /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		F1C03F4E1F4375A300359BFD /* PhotoOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoOperations.swift; sourceTree = "<group>"; };
+		F1C03F4F1F4375A300359BFD /* SimpleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewCell.swift; sourceTree = "<group>"; };
+		F1C03F501F4375A300359BFD /* SingleImageShowVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleImageShowVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1C03F191F43752F00359BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C03F2D1F43753100359BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C03F381F43753100359BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1C03F131F43752F00359BFD = {
+			isa = PBXGroup;
+			children = (
+				F1C03F1E1F43752F00359BFD /* PhotoDownloader */,
+				F1C03F331F43753100359BFD /* PhotoDownloaderTests */,
+				F1C03F3E1F43753100359BFD /* PhotoDownloaderUITests */,
+				F1C03F1D1F43752F00359BFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1C03F1D1F43752F00359BFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1C03F1C1F43752F00359BFD /* PhotoDownloader.app */,
+				F1C03F301F43753100359BFD /* PhotoDownloaderTests.xctest */,
+				F1C03F3B1F43753100359BFD /* PhotoDownloaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1C03F1E1F43752F00359BFD /* PhotoDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				F1C03F1F1F43752F00359BFD /* AppDelegate.swift */,
+				F1C03F231F43752F00359BFD /* Main.storyboard */,
+				F1C03F261F43752F00359BFD /* Assets.xcassets */,
+				F1C03F281F43753000359BFD /* LaunchScreen.storyboard */,
+				F1C03F2B1F43753000359BFD /* Info.plist */,
+				F1C03F4D1F4375A300359BFD /* ListViewController.swift */,
+				F1C03F4E1F4375A300359BFD /* PhotoOperations.swift */,
+				F1C03F4F1F4375A300359BFD /* SimpleTableViewCell.swift */,
+				F1C03F501F4375A300359BFD /* SingleImageShowVC.swift */,
+			);
+			path = PhotoDownloader;
+			sourceTree = "<group>";
+		};
+		F1C03F331F43753100359BFD /* PhotoDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1C03F341F43753100359BFD /* PhotoDownloaderTests.swift */,
+				F1C03F361F43753100359BFD /* Info.plist */,
+			);
+			path = PhotoDownloaderTests;
+			sourceTree = "<group>";
+		};
+		F1C03F3E1F43753100359BFD /* PhotoDownloaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1C03F3F1F43753100359BFD /* PhotoDownloaderUITests.swift */,
+				F1C03F411F43753100359BFD /* Info.plist */,
+			);
+			path = PhotoDownloaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1C03F1B1F43752F00359BFD /* PhotoDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C03F441F43753100359BFD /* Build configuration list for PBXNativeTarget "PhotoDownloader" */;
+			buildPhases = (
+				F1C03F181F43752F00359BFD /* Sources */,
+				F1C03F191F43752F00359BFD /* Frameworks */,
+				F1C03F1A1F43752F00359BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoDownloader;
+			productName = PhotoDownloader;
+			productReference = F1C03F1C1F43752F00359BFD /* PhotoDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1C03F2F1F43753100359BFD /* PhotoDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C03F471F43753100359BFD /* Build configuration list for PBXNativeTarget "PhotoDownloaderTests" */;
+			buildPhases = (
+				F1C03F2C1F43753100359BFD /* Sources */,
+				F1C03F2D1F43753100359BFD /* Frameworks */,
+				F1C03F2E1F43753100359BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1C03F321F43753100359BFD /* PBXTargetDependency */,
+			);
+			name = PhotoDownloaderTests;
+			productName = PhotoDownloaderTests;
+			productReference = F1C03F301F43753100359BFD /* PhotoDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1C03F3A1F43753100359BFD /* PhotoDownloaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C03F4A1F43753100359BFD /* Build configuration list for PBXNativeTarget "PhotoDownloaderUITests" */;
+			buildPhases = (
+				F1C03F371F43753100359BFD /* Sources */,
+				F1C03F381F43753100359BFD /* Frameworks */,
+				F1C03F391F43753100359BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1C03F3D1F43753100359BFD /* PBXTargetDependency */,
+			);
+			name = PhotoDownloaderUITests;
+			productName = PhotoDownloaderUITests;
+			productReference = F1C03F3B1F43753100359BFD /* PhotoDownloaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1C03F141F43752F00359BFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = teamglobal;
+				TargetAttributes = {
+					F1C03F1B1F43752F00359BFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F1C03F2F1F43753100359BFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F1C03F1B1F43752F00359BFD;
+					};
+					F1C03F3A1F43753100359BFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F1C03F1B1F43752F00359BFD;
+					};
+				};
+			};
+			buildConfigurationList = F1C03F171F43752F00359BFD /* Build configuration list for PBXProject "PhotoDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1C03F131F43752F00359BFD;
+			productRefGroup = F1C03F1D1F43752F00359BFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1C03F1B1F43752F00359BFD /* PhotoDownloader */,
+				F1C03F2F1F43753100359BFD /* PhotoDownloaderTests */,
+				F1C03F3A1F43753100359BFD /* PhotoDownloaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1C03F1A1F43752F00359BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C03F2A1F43753000359BFD /* LaunchScreen.storyboard in Resources */,
+				F1C03F271F43752F00359BFD /* Assets.xcassets in Resources */,
+				F1C03F251F43752F00359BFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C03F2E1F43753100359BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C03F391F43753100359BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1C03F181F43752F00359BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C03F541F4375A300359BFD /* SingleImageShowVC.swift in Sources */,
+				F1C03F511F4375A300359BFD /* ListViewController.swift in Sources */,
+				F1C03F531F4375A300359BFD /* SimpleTableViewCell.swift in Sources */,
+				F1C03F201F43752F00359BFD /* AppDelegate.swift in Sources */,
+				F1C03F521F4375A300359BFD /* PhotoOperations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C03F2C1F43753100359BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C03F351F43753100359BFD /* PhotoDownloaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C03F371F43753100359BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C03F401F43753100359BFD /* PhotoDownloaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1C03F321F43753100359BFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1C03F1B1F43752F00359BFD /* PhotoDownloader */;
+			targetProxy = F1C03F311F43753100359BFD /* PBXContainerItemProxy */;
+		};
+		F1C03F3D1F43753100359BFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1C03F1B1F43752F00359BFD /* PhotoDownloader */;
+			targetProxy = F1C03F3C1F43753100359BFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1C03F231F43752F00359BFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1C03F241F43752F00359BFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1C03F281F43753000359BFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1C03F291F43753000359BFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1C03F421F43753100359BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1C03F431F43753100359BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1C03F451F43753100359BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dbwebinfo.library.PhotoDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F1C03F461F43753100359BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dbwebinfo.library.PhotoDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F1C03F481F43753100359BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dbwebinfo.library.PhotoDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoDownloader.app/PhotoDownloader";
+			};
+			name = Debug;
+		};
+		F1C03F491F43753100359BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dbwebinfo.library.PhotoDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoDownloader.app/PhotoDownloader";
+			};
+			name = Release;
+		};
+		F1C03F4B1F43753100359BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PhotoDownloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dbwebinfo.library.PhotoDownloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PhotoDownloader;
+			};
+			name = Debug;
+		};
+		F1C03F4C1F43753100359BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PhotoDownloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dbwebinfo.library.PhotoDownloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PhotoDownloader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1C03F171F43752F00359BFD /* Build configuration list for PBXProject "PhotoDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C03F421F43753100359BFD /* Debug */,
+				F1C03F431F43753100359BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C03F441F43753100359BFD /* Build configuration list for PBXNativeTarget "PhotoDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C03F451F43753100359BFD /* Debug */,
+				F1C03F461F43753100359BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1C03F471F43753100359BFD /* Build configuration list for PBXNativeTarget "PhotoDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C03F481F43753100359BFD /* Debug */,
+				F1C03F491F43753100359BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1C03F4A1F43753100359BFD /* Build configuration list for PBXNativeTarget "PhotoDownloaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C03F4B1F43753100359BFD /* Debug */,
+				F1C03F4C1F43753100359BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1C03F141F43752F00359BFD /* Project object */;
+}
